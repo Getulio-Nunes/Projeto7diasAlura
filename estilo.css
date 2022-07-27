@@ -1,0 +1,386 @@
+body{
+    color: #3A404E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.cabecalho__logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    align-items: center;
+
+}
+
+.cabecalho__lista
+{
+    display: flex;
+    list-style:none;
+    margin-right: 10%;
+    
+}
+
+
+
+.cabecalho__nome-logo
+{
+    color: #3A404E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+
+    
+}
+
+.itens__lista-cabecalho
+{
+    color:#667085;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding: 0 14px;
+    
+    
+}
+
+.cabecalho__botao-entrar
+{
+    color:#667085;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cabecalho__botoes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cabecalho__botao-cadastro
+{
+    background-color: #8E2424;
+    border: 1px solid #8E2424;
+    border-radius: 5px;
+    padding: 0.5em;
+    color:#FFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    margin:0 1em;
+}
+
+.sobrenos
+{
+    margin-top: 5%;
+}
+.sobrenos
+{
+    color: #8E2424;
+    text-align: center;
+    width: 100%;
+    height: 300px; 
+   
+}
+
+.talentos
+{
+    margin: auto;
+    color: #8E2424;
+    text-align: center;
+    width: 100%;
+   
+}
+
+
+.sobrenos__texto,.talentos__vagas
+{
+    margin-top: 5%;
+    margin-bottom: 2%
+}
+
+.sobrenos__titulo
+{
+    color: black;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 2%
+}
+
+.talentos__procura
+{
+    color: black;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 2%
+}
+
+.sobrenos__texto2,.talentos__remota
+{
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+    width: 800px;
+    margin:auto;
+    
+}
+
+.dados{
+    margin-top: -1%;
+}
+.dados__titulo-itenlista
+{
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.dados_lista
+{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.dados__lista--itens{
+    max-width: 280px;
+    margin: 2%;
+}
+
+.talentos__imagem
+{
+    width: 82%;
+    margin-top: 5%;
+}
+
+.design
+{
+    display: block;
+    margin-left: 25%;
+}
+
+.descricoes__item-listadesign
+{
+    color:#667085;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+}
+
+.desc1__item-listadesign{
+    padding-right: 1.5%;
+}
+
+.design
+{
+    padding: 5.5% 0;
+}
+
+.design__lista-item
+{
+    
+    padding: 4% 0 4% 2%;
+    color: #101828;
+    border: 1px solid #bec3ce;
+    border-radius: 15px;
+    margin: 5% 32% 5% 0;
+    
+}
+
+.titulo__item-listadesign
+{
+    padding-bottom: 2%;
+}
+
+.colaboradores
+{
+    background-color: #FCF7F8;
+    border-radius: 20px;
+    margin: auto;
+    padding: 1% 0;
+    width: 82%;
+}
+
+.colaboradores-importante
+{
+width: 80%;
+margin: auto;
+}
+
+.fotinha
+{
+    width: 56px;
+    height: 56px;
+    border-radius: 200px;
+}
+
+.colaboradores__nome
+{
+    color:#101828;
+    margin-top: 1.5%;
+}
+
+.colaboradores__prof
+{
+    color: #667085;
+    margin-top: 1%;
+}
+
+.oportunidades
+{
+    margin-top: 10%;
+}
+
+.oportunidades-acompanhe
+{
+    font-size: 36px;
+}
+
+.oportunidades-primeiro
+{
+    font-size: 20px;
+}
+
+.enviar-email{
+    justify-content: space-between;
+    width: 450px;
+    margin: auto;
+    margin-top: -9%;
+    padding: 0.8em;
+}
+
+.enviar-seuemail
+{
+    flex-grow: 1;
+    padding: 0.8em;
+    border: 1px solid #8E2424;
+    border-radius: 5px;
+}
+
+.enviar-cadastro{
+    background-color: #8E2424;
+    border: 1px solid #8E2424;
+    border-radius: 5px;
+    padding: 0.8em;
+    color:#FFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    margin:0 1em;
+}
+
+.rodape
+{
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 1%;
+    color: #98A2B3;
+    text-align: center;
+}
+
+
+@media (max-width: 800px )
+{
+   
+    .cabecalho
+    {
+        display: block;
+        text-align: center;
+        align-items: center;
+      
+    }
+
+    .cabecalho__lista
+    {
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 1em;
+        background-color: #FCF7F8;
+        border-radius: 0  0 15px 15px;
+        margin-bottom: 1em;
+        justify-content: center;
+    }
+
+    .sobrenos__texto2,.talentos__remota
+    {
+        font-weight: 400;
+        font-size: 20px;
+        color: #667085;
+        width: 90%;
+        
+        margin:auto;
+    }
+
+    .itens__lista-cabecalho
+    {
+       margin: auto;
+       margin: 0 40px 40px 40px;
+       flex-grow: 1;
+       font-weight: bold;
+       color: #8E2424;
+       padding-top: 6%;
+      
+    }
+   
+    .dados_lista{
+        flex-wrap: wrap;
+    }
+
+    .design__lista-item
+    {
+        
+        padding: 4% 0 4% 2%;
+        color: #101828;
+        border: 1px solid #bec3ce;
+        border-radius: 15px;
+        margin: 5% 2% 5% 2%;
+    }
+
+    .design
+    {
+       margin-left: 0; 
+       text-align: center;
+    }
+    .descricoes__item-listadesign{
+        justify-content: space-between;
+    }
+    .desc1__item-listadesign{
+        margin-left: 1%;
+    }
+    .desc2__item-listadesign{
+        margin-right: 1%;
+    }
+    .enviar-email{
+        flex-direction: column;
+        
+    }
+    .enviar-seuemail{
+        width: 80%;
+    }
+    .enviar-cadastro{
+        width: 80%;
+        text-align: center;
+    }
+    .enviar-email{
+        width: 100%;
+        padding: 0;
+    }
+    .oportunidades{
+        margin-bottom: -20%;
+    }
+    .rodape{
+        margin: 1em 0;
+    }
+   
+}
